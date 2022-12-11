@@ -1,2 +1,2 @@
 # UGR-0655-13
-Wireframe and Site diagram for the proposed website "NBA Nation".
+Repo for the Wireframe and Site diagram of the proposed website "NBA Nation".
