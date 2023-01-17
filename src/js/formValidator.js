@@ -13,7 +13,7 @@ function inputValidator() {
         let flag = false;
         for (let char of email.value) {
             if (char === "@") {
-                flag = true
+                flag = true;
             }
         }
         if (!flag) {
@@ -22,7 +22,7 @@ function inputValidator() {
             error = true;
         }
     }
-    let comment = document.getElementById("comment")
+    let comment = document.getElementById("comment");
     if (comment.value.length < 2) {
         let errMess = document.getElementById("commentErrorMessage");
         errMess.innerText = "*Comment is required";
