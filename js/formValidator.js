@@ -35,8 +35,8 @@ function inputValidator() {
     }
 }
 
-function submit() {
-    if (validateInputs()) {
+function submitI() {
+    if (inputValidator()) {
         alert("Comment has been successfully submitted.")
     }
 }

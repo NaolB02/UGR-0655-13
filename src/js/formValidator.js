@@ -1,5 +1,5 @@
 function inputValidator() {
-    let error = false
+    let error = false;
     let email = document.getElementById("email");
     if (email.value.length < 1) {
         let errMess = document.getElementById("emailErrorMessage");
@@ -35,8 +35,8 @@ function inputValidator() {
     }
 }
 
-function submit() {
-    if (validateInputs()) {
+function submitI() {
+    if (inputValidator()) {
         alert("Comment has been successfully submitted.")
     }
 }
