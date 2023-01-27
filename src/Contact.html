@@ -54,7 +54,7 @@
     <!-- I used css to make dashed border here. -->
     <main style="border: dashed 4px black; border-radius: 4px;">
         <h1 class="display-3 text-center">Reach Us</h1>
-        <form class="needs-validation" action="">
+        <form class="needs-validation" action="" novalidate>
             <div class="container-fluid">
                 <div class="row my-2 justify-content-between">
                     <div class="col-sm-3">
@@ -171,18 +171,6 @@
     </footer>
 </body>
 <script src="bootstrap.bundle.min.js"></script>
-<script>
-    var forms = document.querySelectorAll(".needs-validation");
-    Array.prototype.slice.call(forms).forEach(function(form) {
-        form.addEventListener("submit", function(event) {
-            if (!form.checkValidity()) {
-                event.preventDefault();
-                event.stopPropagation();
-            }
-            form.classList.add("was-validated");
-        }, false);
-
-    });
-</script>
+<script src="js/formValidator.js"></script>
 
 </html>
